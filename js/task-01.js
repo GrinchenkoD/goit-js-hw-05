@@ -7,8 +7,8 @@ const Account = function ({ login, email }) {
   this.email = email;
 };
 Account.prototype.getInfo = function () {
-  console.log('login', this.login);
-  console.log('email', this.email);
+  console.log('login:', this.login);
+  console.log('email:', this.email);
 };
 console.log(Account.prototype.getInfo); // function
 
